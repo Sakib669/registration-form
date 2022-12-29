@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(/img/img\ \(3\).jpg);
+    background-size: cover;
+}
+.container{
+    margin: 100px 350px;
+    background-color: white;
+    padding: 70px 50px;
+    border-radius: 10px;
+}
+span{
+    color: #ff4e50;
+}
+.main{
+    display: flex;
+}
+input{
+    margin: 10px 5px;
+    padding: 12px 10px;
+    width: 270px;
+    border-radius: 3px;
+    border: 1px solid #867e7e;
+    outline: none;
+}
+#radio-btn{
+    width: 20px ;
+}
+button{
+    margin: 10px 5px;
+    width: 555px;
+    padding: 2vh;
+    cursor: pointer;
+    background: linear-gradient(to right, #3a7bd5, #ff4e50);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+button:hover{
+    background: linear-gradient(to left, #3a7bd5, #ff4e50);
+}
